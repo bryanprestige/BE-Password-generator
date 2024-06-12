@@ -1,0 +1,112 @@
+body {
+    color: white;
+    text-align: center;
+    width: 550px;
+    max-width: 550px;
+    height: 550px;
+    max-height: 550px;
+    font-family: 'Karla', sans-serif; 
+    background: #243D4B;
+    margin: auto;
+    border: 5px solid #F7BC47;
+}
+
+@font-face {
+  font-family: 'Karla'; 
+  src: url('/Karla-VariableFont_wght.ttf'); 
+}
+
+h1 {
+  color: #FFFFFF;
+  width: 354px;
+  height: 80px;
+  font-size: 40px ;
+  font-weight:750;
+  text-align: start;
+  margin-top: 100px;
+  margin-left: 52px;
+}
+
+#pass {
+  color: #F7BC47;
+}
+
+h2 {
+  width: 372px;
+  height: 28px;
+  color: white;
+  font-size: 20px;
+  text-align: start;
+  margin-top: -15px;
+  font-weight: 300;
+  margin-left: 52px;
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3); ;
+}
+
+#generator-el {
+  width: 191px;
+  height: 42px;
+  color: #243D4B;
+  background-color: #F7BC47;
+  line-height: 42px;
+  box-sizing: border-box; 
+  margin-right: 380px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-left: 52px;
+}
+
+#generator-el:hover {
+  background-color: white;
+}
+
+#line {
+  width: 446px;
+  border: 1px solid #F7BC47;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 52px;
+}
+
+#password-spaces {
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#space-one, #space-two {
+  width: 200px;
+  height: 39px;
+  background-color: #243D4B;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  color: #F7BC47;   
+  border: 5px solid white;       
+}
+
+.hidden {
+  display: none;
+}
+
+#copy-message {
+  width: 200px;
+  margin: auto;
+  color: #FFFFFF;
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+  0px -4px 10px rgba(255,255,255,0.3); 
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#logo {
+  width: 100px;
+  margin: auto;
+}
