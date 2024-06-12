@@ -145,7 +145,8 @@ h2 {
   #password-spaces {
     display: flex;
     flex-direction: column;
-    align-items: center;;
+    align-items: center;
+    margin: auto;
   }
 
   #space-one, #space-two {
